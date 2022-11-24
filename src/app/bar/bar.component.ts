@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BazService } from 'src/app/baz.service';
+import { BazService } from '../baz.service';
 
 @Component({
   selector: 'app-bar',
