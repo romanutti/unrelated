@@ -9,7 +9,8 @@ import { BazService } from './baz.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, FooComponent, BarComponent, BazService],
+  declarations: [AppComponent, FooComponent, BarComponent],
   bootstrap: [AppComponent],
+  providers: [BazService],
 })
 export class AppModule {}
