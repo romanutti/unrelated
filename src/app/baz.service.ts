@@ -11,7 +11,7 @@ export class BazService {
   public toggle() {
     if (!this.state.value) {
       this.state.next(true);
-      setTimeout((val) => {
+      setTimeout(() => {
         this.state.next(false);
       }, 1000);
     }
