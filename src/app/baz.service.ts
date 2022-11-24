@@ -9,6 +9,11 @@ export class BazService {
   constructor() {}
 
   public toggle() {
-    this.state.next(!this.state);
+    if (!this.state.value) {
+      this.state.next(true);
+      setTimeout((val) => {
+        this.state.next(false);
+      }, 1000);
+    }
   }
 }

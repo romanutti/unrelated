@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { FooComponent } from './foo/foo/foo.component';
-import { BarComponent } from './bar/bar/bar.component';
+import { FooComponent } from './foo/foo.component';
+import { BarComponent } from './bar/bar.component';
 import { BazService } from './baz.service';
 
 @NgModule({
